@@ -26,7 +26,7 @@ async def on_message(message):
   if message.channel.name == 'testing':
     if user_message.startswith('!vote'):
       msg = user_message.split('!vote')[1]
-      await message.channel.send(f'```**Voting on{msg}**```')
+      await message.channel.send(f'```Voting on{msg}```')
 
   if message.content == "!end":
     await client.close()
