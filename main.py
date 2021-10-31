@@ -23,7 +23,7 @@ async def on_message(message):
     return
 
 
-  if message.channel.name == 'testing':
+  if message.channel.name == 'voting':
     if user_message.startswith('!vote'):
       msg = user_message.split('!vote')[1]
       await message.channel.send(f'```Voting on{msg}```')
