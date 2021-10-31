@@ -1,9 +1,9 @@
 import discord
 import os
-#from dotenv import load_dotenv
-#load_dotenv()
+from dotenv import load_dotenv
+#oad_dotenv()
 
-#TOKEN=os.getenv('SECRETKEY')
+TOKEN=os.getenv('SECRETKEY')
 
 client = discord.Client()
 @client.event
