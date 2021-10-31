@@ -1,5 +1,4 @@
 import discord
-import os
 
 TOKEN = 'ODgyMTA5Njc2MTE5MDExMzM4.YS2mpw.DVn5838VjRjZ8qfdcWmZU0_bFzU'
 
